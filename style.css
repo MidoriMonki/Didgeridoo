@@ -1,0 +1,266 @@
+
+@keyframes Title{
+  0% {letter-spacing: 25px;}
+  100% {letter-spacing: 0px;}
+}
+
+@keyframes ByeBye{
+  0% {}
+  100% {background-color:rgb(255, 255, 255);}
+}
+
+@keyframes searchBar{
+  0% {width: 0%;}
+  100% {lwidth: 100%x;)}
+}
+
+@keyframes settings{
+  0% {left: -20%;}
+  100% {left: 0%;}
+}
+
+#mascot{
+  max-width: 30vw;
+  max-height: 30vh;
+  transform: rotate(135deg);
+  position: absolute;
+  top: -4%;
+  left: -4%;
+}
+
+#title{
+  max-width: 50%;
+  position: absolute;
+  top: 5%;
+  left: 26%;
+}
+
+ul {
+  list-style-type: none;
+  margin-top:-6px;
+  margin-bottom: 10px;
+  margin-left: -48px;
+}
+
+li {
+  display: inline;
+  font-size: 20px;
+  background-color:rgb(100, 100, 100);
+}
+
+li:hover{
+  background-color:rgb(150, 150 ,150);
+  cursor: pointer;
+}
+
+
+
+img{
+}
+
+body {
+  background-image: none;
+  background-color: rgb(20, 20, 20);
+  color: white;
+  font-size: 25px;
+}
+
+footer {
+  color: white;
+  font-size: 25px;
+}
+
+
+.light-mode {
+  background-color: white;
+  color: rgb(20, 20, 20);
+  opacity: 1;
+}
+
+.switch{
+  background-color:rgb(255, 255, 255);
+  border: 2px solid rgb(30, 30, 30);
+  margin: 5px;
+  line-height: 2;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 15px;
+  font-size: 16px;
+  border-radius: 30px;
+  color: black;
+  cursor: pointer;
+  user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+p{
+  font-size: 20px;
+  margin-right: 120px;
+  margin-left: 6px;
+}
+
+p.poo{
+  font-size: 20px;
+  color: white;
+}
+
+h1 {
+  font-size: 95px;
+  text-align: center;
+  animation: Title 2s 1;
+  text-align: center;
+  margin: -10px;
+}
+
+h2{
+  margin-top: 11vw;
+  text-align: center;
+  font-size: 3vw;
+  animation: NonT 3s 1;
+}
+
+h3{
+  font-size: 40px;
+  letter-spacing: 1.5px;
+}
+
+h4 {
+  font-size: 60px;
+  text-align: center;
+  animation: Title 2s 1;
+  position: absolute;
+  top: 8.18%;
+  left: 56%;
+  transform: translate(-50%, -65%);
+}
+
+
+input.text{
+  max-width: 50%;
+  animation: searchBar 2s 1;
+  margin-left: 25%;
+  font-size: clamp(10px, 3vw, 33px);
+  margin-top: 5px;
+  width:800px;
+  border: 2px solid;
+  border-radius: 18px;
+  padding: 5px;
+}
+
+input.poo{
+  padding: 3%;
+  border: 2px solid;
+  border-radius: 18px;
+}
+
+input.poo{
+  margin-right: 60px;
+}
+
+div.what{
+  animation: settings .8s 1;
+  position: absolute;
+  width: 200px;
+  height: 837px;
+  top: 0%;
+  left: 0%;
+  background-color: rgb(40, 40, 80);
+}
+
+a{
+  background-color:rgb(255, 255, 255);
+  border: 2px solid rgb(30, 30, 30);
+  line-height: 2;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  font-size: 3.5vh;
+  border-radius: 30px;
+  transition: .5s;
+  margin: 5px;
+  text-decoration: none;
+  color: initial;
+}
+
+a.btn1:hover{
+  background-color:rgb(250, 60 ,0);
+  cursor: pointer;
+  color:rgb(255, 255, 255);
+}
+
+a.btn2:hover{
+  background-color:rgb(60, 220 ,40);
+  cursor: pointer;
+  color:rgb(255, 255, 255);
+}
+
+a.btn3:hover{
+   background-color:rgb(50, 100 ,250);
+  cursor: pointer;
+  color:rgb(255, 255, 255);
+}
+
+a.btn4:hover{
+  background-color:rgb(100, 0 ,220);
+  cursor: pointer;
+  color:rgb(255, 255, 255);
+}
+
+a.btn5:hover{
+  background-color:rgb(255, 0 ,200);
+  cursor: pointer;
+  color:rgb(255, 255, 255);
+}
+
+a.btn6:hover{
+  background-color:rgb(240, 200 ,0);
+  cursor: pointer;
+  color:rgb(255, 255, 255);
+}
+
+.appear:hover{
+  background-color:rgb(80, 80 ,80);
+  cursor: pointer;
+  color:rgb(255, 255, 255);
+}
+
+
+#edit:hover{
+  background-color:rgb(80, 80 ,80);
+  cursor: pointer;
+  color:rgb(255, 255, 255);
+}
+
+a:hover::after{
+  animation: ByeBye .1s 1;
+}
+
+.appear{
+  user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+.idkk{
+  font-size: 2vw;
+  position: absolute;
+  top: 4%;
+  right: 4%;
+}
+
+.clock {
+  font-family: "Lucida Console", Courier, monospace;
+  font-size: 7vw;
+  padding-top: 20px;
+  letter-spacing: -3px;
+  padding-bottom: 30px;
+  text-align: center;
+  margin: -10px;
+}
