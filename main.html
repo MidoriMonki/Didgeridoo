@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Didgeridoo</title>
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer>
+    </script>
+  </head>
+  <body>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=10, minimum-scale=.5">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <a class="idkk" id="edit" href="javascript:;" onclick="toggleVisbility()">Settings</a>
+    <img id="mascot" onclick="randomQuote()" src="https://cdn.glitch.com/e70d2d12-ea5d-4f5f-809c-1b8eb6b3dfcc%2FUntitled_Artwork%206.png?v=1600185645380">
+    <img id="title" src="https://cdn.glitch.com/e70d2d12-ea5d-4f5f-809c-1b8eb6b3dfcc%2FUntitled_Artwork%204.png?v=1600244717725">
+    <br>
+    <h2 id="h2">-- What websites are we surfing today? --</h2>
+    <div class="clock" id="clock" ></div>
+    <form action="https://www.google.com.au/search" method="GET">
+    <input class="text" type="text" name="q" placeholder=" What are we searching for today?">
+    </form>
+    <br>
+    <a id="btn1" class="btn1" href=""></a>
+    <a id="btn2" class="btn2" href=""></a>
+    <a id="btn3" class="btn3" href=""></a>
+    <a id="btn4" class="btn4" href=""></a>
+    <a id="btn5" class="btn5" href=""></a>
+    <a id="btn6" class="btn6" href=""></a>
+    <a class="appear" id="appear" href="javascript:;" onclick="addButton()">+</a>
+     <a class="appear" id="disappear" href="javascript:;" onclick="removeButton()">-</a>
+    <br>
+    <br>
+    <div id="ok" class="what" style="display:none;">
+   
+   
+   
+    <br>
+     <!-- btn name -->
+    <btn class="switch" onclick="myFunction()">Light/Dark</btn>
+    <btn class="switch" onclick="toggleClock()">Clock</btn>
+    <btn class="switch" onclick="toggleGeri()">Geri</btn>
+      <br>
+    <p class="poo"  id="btn1D" style="display:none;">Button 1</p>
+    <input class="poo" type="text" id="btn1Name" style="display:none;" onkeyup="changeVariable1N()" placeholder="Name">
+    <input class="poo"  type="text" id="btn1Href" style="display:none;" onkeyup="changeVariable1H()" placeholder="URL">
+      
+      <p class="poo"  id="btn2D" style="display:none;">Button 2</p>
+    <input class="poo"  type="text" id="btn2Name" style="display:none;" onkeyup="changeVariable2N()" placeholder="Name">
+          <input class="poo"  type="text" id="btn2Href" style="display:none;" onkeyup="changeVariable2H()" placeholder="URL">
+      
+      <p class="poo"  id="btn3D" style="display:none;">Button 3</p>
+    <input class="poo"  type="text" id="btn3Name" style="display:none;" onkeyup="changeVariable3N()" placeholder="Name">
+          <input class="poo"  type="text" id="btn3Href" style="display:none;" onkeyup="changeVariable3H()" placeholder="URL">
+      
+       <p class="poo"  id="btn4D" style="display:none;">Button 4</p>
+    <input class="poo"  type="text" id="btn4Name" style="display:none;" onkeyup="changeVariable4N()" placeholder="Name"> 
+          <input class="poo"  type="text" id="btn4Href" style="display:none;" onkeyup="changeVariable4H()" placeholder="URL">
+      
+       <p class="poo"  id="btn5D" style="display:none;">Button 5</p>
+    <input class="poo"  type="text" id="btn5Name" style="display:none;" onkeyup="changeVariable5N()" placeholder="Name">
+          <input class="poo"  type="text" id="btn5Href" style="display:none;" onkeyup="changeVariable5H()" placeholder="URL">
+      
+       <p class="poo"  id="btn6D" style="display:none;">Button 6</p>
+    <input class="poo"  type="text" id="btn6Name" style="display:none;" onkeyup="changeVariable6N()" placeholder="Name">
+          <input class="poo"  type="text" id="btn6Href" style="display:none;" onkeyup="changeVariable6H()" placeholder="URL">
+      
+    <!-- background img-->
+    <p class="poo" id="bckgN" style="display:none;">Background</p>
+    <br>   
+        <button style="display:none;" class="poo" id="erase" onclick="erase()">no image</button>
+    <input style="display:none;" type="file" id="files"/>
+      
+    </div>
+   <br>
+    
+  </body>
+</html>
+
