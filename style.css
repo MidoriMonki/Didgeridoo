@@ -11,7 +11,7 @@
 
 @keyframes searchBar{
   0% {width: 0%;}
-  100% {lwidth: 100%x;)}
+  100% {width: 100%;}
 }
 
 @keyframes settings{
@@ -53,10 +53,6 @@ li:hover{
   cursor: pointer;
 }
 
-
-
-img{
-}
 
 body {
   background-image: none;
